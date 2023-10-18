@@ -5,3 +5,7 @@ youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
 youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
 
 youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
+
+youtube.com##ytd-app:nth-child(4) > ytd-popup-container.style-scope.ytd-app:nth-child(9) > tp-yt-paper-dialog.style-scope.ytd-popup container:last-child
+
+youtube.com##tp-yt-iron-overlay-backdrop.opened:last-child
